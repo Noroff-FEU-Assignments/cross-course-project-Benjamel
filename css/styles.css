@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Boots And Spurs";
+  src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+}
+
+header img {
+  height: 79px;
+  width: 126px;
+}
