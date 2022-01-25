@@ -3,18 +3,128 @@
   src: url("/fonts/BootsAndSpurs.ttf") format("truetype");
 }
 
+* {
+  background-color: #d4d7e5;
+}
+
 /*header*/
 header img {
   height: 79px;
   width: 126px;
 }
 
-/*main*/
+header {
+  background-color: #5e70d6;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 25px;
+}
+
+header a {
+  color: white;
+  background-color: #5e70d6;
+  font-size: 46px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 69px;
+  width: 100%;
+  background: #5e70d6;
+  z-index: 1000;
+  right: 0px;
+  background-color: #5e70d6;
+  padding: 20px 0;
+}
+
+nav li {
+  display: block;
+  background-color: #5e70d6;
+  text-align: center;
+  width: 100%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  align-items: center;
+}
+
+#hamburger-menu {
+  display: none;
+  justify-content: right;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+/*body*/
+
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.h1,
+.p {
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  margin: 50px 10px 0 10px;
+}
+
+.cta {
+  background-color: #5e70d6;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 19px;
+  padding: 10px;
+  border: 1px solid #1b203d;
+  box-shadow: 1px 2px #1b203d;
+  text-align: ;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
 
 /*footer*/
 footer img {
   height: 250px;
-  width: 428px;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
 }
 
 /*media queries*/
