@@ -32,6 +32,16 @@ header a {
   font-size: 46px;
 }
 
+.fa,
+.fas {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  font-size: 50px;
+  background-color: #5e70d6;
+  margin: 15px 20px;
+}
+
 a {
   text-decoration: none;
 }
