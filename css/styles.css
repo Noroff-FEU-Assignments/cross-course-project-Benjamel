@@ -90,6 +90,9 @@ li {
 }
 
 /*body*/
+main {
+  text-align: center;
+}
 
 body {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
@@ -97,6 +100,7 @@ body {
   margin: 0px;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-repeat: no-repeat;
 }
 
 .h1,
@@ -125,6 +129,7 @@ p {
   margin: 0px;
   text-decoration: underline;
   padding-bottom: 10px;
+  font-weight: 550;
 }
 
 .cta {
@@ -189,18 +194,20 @@ hr {
   margin-left: -130px;
 }
 
-main {
-  text-align: center;
-}
-
 /*footer*/
-footer img {
-  height: 250px;
-  width: 100%;
-}
 
 footer {
+  background-image: url("/images/cellphone-6636940_1920.jpg");
   text-align: center;
+  min-height: 250px;
+  min-width: 100%;
+  background-size: cover;
+}
+
+footer h4 {
+  color: black;
+  font-weight: 400;
+  margin: 0;
 }
 
 /*media queries*/
