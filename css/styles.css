@@ -166,7 +166,7 @@ hr {
   border: 2px solid #1b203d;
   background-color: #5e70d6;
   right: 0;
-  margin-right: 5%;
+  margin-right: 5.5%;
 }
 
 .circle2 {
@@ -177,7 +177,7 @@ hr {
   border: 2px solid #1b203d;
   background-color: #5e70d6;
   float: left;
-  margin-left: 5%;
+  margin-left: 5.5%;
 }
 
 .welcome_content {
@@ -203,3 +203,5 @@ footer {
 }
 
 /*media queries*/
+
+@media;
