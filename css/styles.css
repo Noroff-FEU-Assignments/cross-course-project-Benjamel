@@ -154,8 +154,8 @@ hr {
   border-bottom: 2px solid #1b203d;
   box-shadow: 2px #1b203d;
   width: 80.7%;
-  left: 9.5%;
   margin-top: 7px;
+  left: 9.5%;
 }
 
 .circle1 {
@@ -166,7 +166,7 @@ hr {
   border: 2px solid #1b203d;
   background-color: #5e70d6;
   right: 0;
-  margin-right: 25px;
+  margin-right: 5%;
 }
 
 .circle2 {
@@ -177,13 +177,15 @@ hr {
   border: 2px solid #1b203d;
   background-color: #5e70d6;
   float: left;
-  margin-left: 25px;
+  margin-left: 5%;
 }
 
 .welcome_content {
   position: absolute;
   text-align: center;
   top: 550px;
+  left: 50%;
+  margin-left: -130px;
 }
 
 main {
