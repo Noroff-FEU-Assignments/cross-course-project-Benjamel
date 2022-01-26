@@ -64,6 +64,7 @@ nav li {
   background-color: #5e70d6;
   text-align: center;
   width: 100%;
+  padding-bottom: 25px;
 }
 
 nav ul {
@@ -203,5 +204,3 @@ footer {
 }
 
 /*media queries*/
-
-@media;
