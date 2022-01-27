@@ -206,32 +206,20 @@
 
 /*mobile*/
 @media only screen and (min-width: 600px)  {
-
-    header {
-        justify-content: start;
-    }
-
+    
     nav {
         display:block; 
         position: static;
-        font-size: .8em;
         padding: 0;
-        
     }
 
     nav li {
         display: inline;
-        padding: 0px;
-        
-
+        padding: 0;
     }
 
     header label {
         display: none;
-    }
-
-    ul {
-        font-size: .8em;
     }
 }
 
