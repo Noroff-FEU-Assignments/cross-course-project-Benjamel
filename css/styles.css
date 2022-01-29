@@ -94,7 +94,7 @@ li {
 
 h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   font-weight: bold;
   font-size: 36px;
 }
@@ -139,7 +139,7 @@ hr {
   border-bottom: 2px solid #1b203d;
   box-shadow: 2px #5e70d6;
   width: 80%;
-  margin-top: 7px;
+  margin-top: -5px;
 }
 
 .hr-circle {
@@ -151,14 +151,14 @@ hr {
 
 .welcome_content {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: -58px;
 }
 
 .main-image {
   background-image: url(/images/cellphone-6636940_1920.jpg);
   background-size: cover;
   background-repeat: no-repeat center;
-  width: 100%;
+  width: 99%;
   height: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -176,6 +176,10 @@ footer {
 
 /*tablets*/
 @media only screen and (min-width: 600px) {
+  h1 {
+    margin-top: 100px;
+  }
+
   body {
     z-index: 100;
   }
@@ -199,12 +203,18 @@ footer {
   li a {
     font-size: 30px;
   }
+
+  .main-image {
+    margin-top: 10px;
+    max-width: 99%;
+  }
 }
 
 /*desktop*/
 @media only screen and (min-width: 1024px) {
   h1 {
     font-size: 46px;
+    margin-top: 70px;
   }
 
   p,
@@ -234,7 +244,7 @@ footer {
 
   .main-image {
     height: 50vh;
-    width: 80%;
+    width: 99%;
   }
 
   footer {
@@ -246,5 +256,11 @@ footer {
   }
 
   .content {
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .main-image {
+    width: 80%;
   }
 }
