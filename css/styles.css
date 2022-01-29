@@ -97,6 +97,7 @@ h1 {
   margin-top: 50px;
   font-weight: bold;
   font-size: 36px;
+  z-index: 1000;
 }
 
 p {
@@ -154,12 +155,18 @@ hr {
   margin-bottom: 50px;
 }
 
-main {
-  text-align: center;
+.main-image {
+  background-image: url(/images/cellphone-6636940_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat center;
+  width: 100%;
+  height: 50%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-img {
-  width: 100%;
+main {
+  text-align: center;
 }
 
 footer {
@@ -170,6 +177,10 @@ footer {
 
 /*tablets*/
 @media only screen and (min-width: 600px) {
+  body {
+    z-index: 100;
+  }
+
   nav {
     display: block;
     position: static;
@@ -193,33 +204,38 @@ footer {
 
 /*desktop*/
 @media only screen and (min-width: 900px) {
+  html {
+    height: 100%;
+  }
+
   nav {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    z-index: 1000;
   }
 
   li a {
     font-size: 46px;
   }
 
-  img {
-    height: 30vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-
-  main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-
   .welcome_content {
     text-align: center;
     margin-bottom: 200px;
   }
-}
 
-/*Desktop*/
+  .main-image {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url(/images/cellphone-6636940_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    filter: blur(10px);
+  }
+}
