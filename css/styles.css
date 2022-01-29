@@ -1,230 +1,225 @@
+body {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #d4d7e5;
+}
 
- body {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-    min-height: 100vh;
-    margin: 0px;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-  }
+/*header*/
+header img {
+  height: 79px;
+  width: 126px;
+  background-color: #5e70d6;
+  margin-left: 5px;
+  margin-top: 5px;
+}
 
-* {
-    background-color: #d4d7e5;
-  }
-  
-  /*header*/
-  header img {
-    height: 79px;
-    width: 126px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: #5e70d6;
-    margin-left: 5px;
-  }
-  
-  header {
-    background-color: #5e70d6;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 79px;
-  }
-  
-  header a {
-    color: white;
-    background-color: #5e70d6;
-    font-size: 46px;
-  }
-  
-  .fa,
-  .fas {
-    top: 0px;
-    right: 0px;
-    position: absolute;
-    font-size: 50px;
-    background-color: #5e70d6;
-    margin: 15px 20px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  nav {
-    display: none;
-    position: fixed;
-    top: 79px;
-    width: 100%;
-    background: #5e70d6;
-    z-index: 1000;
-    right: 0px;
-    background-color: #5e70d6;
-    padding-top: 20px;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-  }
+header {
+  background-color: #5e70d6;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
 
-  nav li {
-    display: block;
-    background-color: #5e70d6;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 25px;
-  }
-  
-  
-  li {
-    padding: 10px;
-  }
-  
-  .content {
-    align-items: center;
-  }
-  
-  #hamburger-menu {
-    display: none;
-    justify-content: right;
-  }
-  
-  #hamburger-menu:checked ~ nav {
-    display: block;
-  }
-  
-  
-  .h1,
-  .p {
-    text-align: center;
-    color: #1b203d;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-top: 100px;
-    font-weight: bold;
-    font-size: 36px;
-  }
-  
-  p {
-    text-align: center;
-    margin: 50px 10px 0 10px;
-    font-size: 16px;
-  }
-  
-  .readmore {
-    margin: 0px;
-    text-decoration: underline;
-    padding-bottom: 10px;
-  }
-  
-  .cta {
-    background-color: #5e70d6;
-    color: #fff;
-    font-size: 24px;
-    text-transform: uppercase;
-    border-radius: 19px;
-    padding: 10px;
-    border: 1px solid #1b203d;
-    box-shadow: 1px 2px #1b203d;
-  }
-  
-  .cta-small {
-    padding: 10px 30px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  .active {
-    text-decoration: underline;
-  }
-  
-  hr {
-    position: absolute;
-    border-bottom: 2px solid #1b203d;
-    box-shadow: 2px #1b203d;
-    width: 80.7%;
-    margin-top: 7px;
-    left: 9.4%;
-  }
-  
-  .circle1 {
-    position: absolute;
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    border: 2px solid #1b203d;
-    background-color: #5e70d6;
-    right: 0;
-    margin-right: 5.5%;
-  }
-  
-  .circle2 {
-    position: absolute;
-    border-radius: 50%;
-    height: 15px;
-    width: 15px;
-    border: 2px solid #1b203d;
-    background-color: #5e70d6;
-    float: left;
-    margin-left: 5.5%;
-  }
-  
-  .welcome_content {
-    position: absolute;
-    text-align: center;
-    top: 550px;
-    left: 50%;
-    margin-left: -130px;
-  }
-  
-  main {
-    text-align: center;
-  }
-  
-  /*footer*/
-  footer img {
-    height: 250px;
-    width: 100%;
-  }
-  
-  footer {
-    position:relative;
-    text-align: center;
-    background-image: url(/images/cellphone-6636940_1920.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 329px;
-    max-width: 100%;
-  }
+header a {
+  color: white;
+  background-color: #5e70d6;
+  font-size: 46px;
+}
 
+.fa,
+.fas {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  font-size: 50px;
+  background-color: #5e70d6;
+  margin: 15px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: none;
+  position: fixed;
+  top: 79px;
+  width: 100%;
+  background: #5e70d6;
+  z-index: 1000;
+  right: 0px;
+  background-color: #5e70d6;
+  padding-top: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  background-color: #5e70d6;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+li {
+  padding: 10px;
+}
+
+.content {
+  align-items: center;
+}
+
+#hamburger-menu {
+  display: none;
+  justify-content: right;
+}
+
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+
+.h1,
+.p {
+  text-align: center;
+  color: #1b203d;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+  font-size: 16px;
+}
+
+.readmore {
+  margin: 0px;
+  text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+.cta {
+  background-color: #5e70d6;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 19px;
+  padding: 10px;
+  border: 1px solid #1b203d;
+  box-shadow: 1px 2px #1b203d;
+}
+
+.cta-small {
+  padding: 10px 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+hr {
+  border-bottom: 2px solid #1b203d;
+  box-shadow: 2px #5e70d6;
+  width: 80%;
+  margin-top: 7px;
+}
+
+.hr-circle {
+  display: flex;
+  max-width: 1000px;
+  margin: 0px auto;
+  margin-bottom: 40px;
+}
+
+.welcome_content {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
 
 /*media queries*/
 
-/*mobile*/
-@media only screen and (min-width: 600px)  {
-    
-    nav {
-        display:block; 
-        position: static;
-        padding: 0;
-    }
+/*tablets*/
+@media only screen and (min-width: 600px) {
+  nav {
+    display: block;
+    position: static;
+    padding: 0;
+    padding-left: 10px;
+  }
 
-    nav li {
-        display: inline;
-        padding: 0;
-    }
+  nav li {
+    display: inline;
+    padding: 10px;
+  }
 
-    header label {
-        display: none;
-    }
+  header label {
+    display: none;
+  }
+
+  li a {
+    font-size: 30px;
+  }
 }
 
-/*tablets*/
-@
+/*desktop*/
+@media only screen and (min-width: 900px) {
+  nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 
+  li a {
+    font-size: 46px;
+  }
+
+  img {
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .welcome_content {
+    text-align: center;
+    margin-bottom: 200px;
+  }
+}
 
 /*Desktop*/
