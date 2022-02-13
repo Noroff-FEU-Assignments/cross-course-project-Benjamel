@@ -1,0 +1,43 @@
+section {
+  background: #d4d7e5;
+  margin-top: 70px;
+}
+
+.background-blur {
+  background-color: #666b8a;
+  z-index: -1;
+  height: 500px;
+  width: 80%;
+  position: absolute;
+  filter: brightness(30);
+  backdrop-filter: blur(10px);
+  backdrop-filter: opacity(100%);
+}
+
+.login-icons {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--light-blue);
+}
+
+.social-icon-one {
+  background-image: url(/images/icons/icons8-google-plus-48.png);
+  width: 48px;
+  height: 48px;
+}
+
+.social-icon-two {
+  background-image: url(/images/icons/icons8-twitter-circled-48.png);
+  width: 48px;
+  height: 48px;
+}
+
+.social-icon-three {
+  background-image: url(/images/icons/icons8-facebook-circled-48.png);
+  width: 48px;
+  height: 48px;
+}
+
+.social-icons {
+  display: inline-block;
+}
