@@ -38,6 +38,7 @@ header a {
   font-size: 50px;
   background-color: var(--light-blue);
   margin: 15px 20px;
+  cursor: pointer;
 }
 
 a {

@@ -40,4 +40,26 @@ section {
 
 .social-icons {
   display: inline-block;
+  padding: 0 5px;
+  background-repeat: no-repeat;
+}
+
+.fa-user,
+.fa-lock {
+  margin-bottom: 20px;
+}
+
+.login-h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: var(--dark-blue);
+}
+
+.username-password,
+.fa-user,
+.fa-lock {
+}
+
+.forgot-password {
+  margin-bottom: 90px;
 }
