@@ -1,0 +1,12 @@
+.myprofile {
+  color: var(--dark-blue);
+}
+
+.profile-image img {
+  width: 80%;
+  border-radius: 10px;
+}
+
+.hr-profile {
+  width: 30%;
+}
