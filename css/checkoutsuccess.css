@@ -1,0 +1,46 @@
+.section-checkoutsuccess {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.h1-checkoutsuccess {
+  margin-top: 100px;
+}
+
+.paragraph-checkoutsuccess {
+  max-width: 80%;
+  margin: 30px auto;
+}
+
+.hr-checkoutsuccess {
+  margin-bottom: 75px;
+}
+
+.happysmiley {
+  background-image: url(/images/icons/icons8-happy-48.png);
+}
+
+.sadsmiley {
+  background-image: url(/images/icons/icons8-sad-48.png);
+}
+
+.social-icon-one {
+  background-image: url(/images/icons/icons8-instagram-48.png);
+}
+
+.social-icon-two {
+  background-image: url(/images/icons/icons8-twitter-circled-48.png);
+}
+
+.social-icon-three {
+  background-image: url(/images/icons/icons8-facebook-circled-48.png);
+}
+
+.social-icons {
+  display: inline-block;
+  padding: 0 5px;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+}
