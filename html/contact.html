@@ -7,7 +7,11 @@
         <meta name="description" content="Contact page for GameHub" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="/css/contact.css">
+        <link rel="stylesheet" href="/css/imports/variables.css">
         <link rel="stylesheet" href="/css/styles.css">
+        <link rel="stylesheet" href="/css/profile.css">
+        <link rel="stylesheet" href="/css/mediaquery.css">
         <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
         <title>GameHub | Contact</title>
 </head>
@@ -26,13 +30,32 @@
       </nav>
     </header>
     <main> 
-    <div class="welcome_content">
-        <a href="/html/profile.html" class="cta cta-small">Login</a>
-    </div>
-    <div class="login-picture"></div>
+    <section class="contact">
+        <h1 class="h1-contact">Contact Us</h1>
+        <p class="paragraph-contact">Please fill out form..</p>
+        <div class="contact-form">
+            <label for="email">Email</label>
+            <input type="email">
+            <label for="textarea">Message</label>
+            <textarea label="Message"></textarea>
+            <input class="sendin" type="submit">
+        </div>
+    </section>
+    <section class="map">
+        <p class="paragraph-contact our-location">Our Location</p>
+        <div class="our-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.649652002208!2d11.051181516483492!3d60.020883062422826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46417be4a5d61823%3A0x2e2b561b2049241f!2sSkillebekkveien%2070%2C%202020%20Skedsmokorset!5e0!3m2!1sno!2sno!4v1645040398398!5m2!1sno!2sno" 
+            width="100%" 
+            height="220px" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+        </div>
+    </section>
     </main> 
     <footer>
-        <h5>&copy 2022 Copyright: Benjamin Meldal</h5>
+        <p>&copy 2022 Copyright: Benjamin Meldal</p>
     </footer>
 </body>
 </html>

@@ -1,4 +1,4 @@
-.myprofile {
+.my-profile {
   color: var(--dark-blue);
 }
 
@@ -20,6 +20,6 @@
   margin: 25px 0 10px 0;
 }
 
-.changepassword {
+.change-password {
   margin-bottom: 60px;
 }
