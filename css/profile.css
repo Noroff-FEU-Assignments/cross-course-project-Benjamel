@@ -8,5 +8,18 @@
 }
 
 .hr-profile {
-  width: 30%;
+  width: 40%;
+}
+
+.paragraph-profile {
+  text-decoration: underline;
+  margin: 0;
+}
+
+.h2-profile {
+  margin: 25px 0 10px 0;
+}
+
+.changepassword {
+  margin-bottom: 60px;
 }

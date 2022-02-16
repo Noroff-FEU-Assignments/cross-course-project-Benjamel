@@ -34,6 +34,11 @@
   background-repeat: no-repeat;
   width: 48px;
   height: 48px;
+  text-align: center;
+}
+
+.section-icons {
+  text-align: center;
 }
 
 .fa-user,
@@ -49,6 +54,7 @@
 }
 
 .forgot-password {
+  margin: 0;
   margin-bottom: 90px;
   text-align: right;
 }
