@@ -1,6 +1,13 @@
-section {
+.login-section {
   background: #d4d7e5;
   margin-top: 70px;
+  max-width: 300px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.hr-login {
+  width: 100%;
 }
 
 .login-icons {
@@ -25,6 +32,8 @@ section {
   display: inline-block;
   padding: 0 5px;
   background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
 }
 
 .fa-user,
@@ -33,11 +42,23 @@ section {
 }
 
 .login-h1 {
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 30px;
   font-weight: bold;
   color: var(--dark-blue);
 }
 
 .forgot-password {
   margin-bottom: 90px;
+  text-align: right;
+}
+
+.username-password {
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.p-register {
+  text-decoration: underline;
 }
