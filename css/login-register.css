@@ -11,20 +11,14 @@ section {
 
 .social-icon-one {
   background-image: url(/images/icons/icons8-google-plus-48.png);
-  width: 48px;
-  height: 48px;
 }
 
 .social-icon-two {
   background-image: url(/images/icons/icons8-twitter-circled-48.png);
-  width: 48px;
-  height: 48px;
 }
 
 .social-icon-three {
   background-image: url(/images/icons/icons8-facebook-circled-48.png);
-  width: 48px;
-  height: 48px;
 }
 
 .social-icons {
@@ -42,11 +36,6 @@ section {
   margin-bottom: 20px;
   font-weight: bold;
   color: var(--dark-blue);
-}
-
-.username-password,
-.fa-user,
-.fa-lock {
 }
 
 .forgot-password {
