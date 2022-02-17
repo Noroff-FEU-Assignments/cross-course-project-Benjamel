@@ -130,6 +130,11 @@ p {
   padding: 10px 30px;
 }
 
+.stuff {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
 a {
   text-decoration: none;
 }
