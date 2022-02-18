@@ -1,0 +1,15 @@
+.viewgame {
+  display: grid;
+}
+
+.section-viewgame {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.racing {
+  max-width: 100%;
+  grid-column: 2;
+  grid-row: 1;
+  grid-column-start: auto;
+}
