@@ -121,7 +121,7 @@ p {
   border-radius: 5px;
   padding: 5px 20px;
   border: 1px solid var(--light-blue);
-  margin: 10px;
+  margin: 10px 0px;
 }
 
 .stuff {
@@ -141,7 +141,7 @@ a {
 hr {
   border-bottom: 1px solid var(--dark-blue);
   box-shadow: 1px var(--light-blue);
-  width: 80%;
+  width: 90%;
   margin-top: -5px;
 }
 
@@ -155,6 +155,8 @@ hr {
 .welcome_content {
   text-align: center;
   margin-bottom: 25px;
+  max-width: 100%;
+  display: grid;
 }
 
 .image-container {
@@ -163,7 +165,7 @@ hr {
 }
 
 .image-container img {
-  width: 90%;
+  width: 100%;
 }
 
 main {
@@ -173,10 +175,6 @@ main {
 footer {
   text-align: center;
   margin: 30px 0 0 0;
-  background-image: url();
-  min-height: 5vh;
-  min-width: 100%;
-  background-size: cover;
 }
 
 h5 {

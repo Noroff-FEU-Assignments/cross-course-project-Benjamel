@@ -9,5 +9,18 @@
 }
 
 .cta {
-  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p,
+h2 {
+  text-align: left;
+  margin: 0;
+  margin: 20px 0;
+}
+
+footer p {
+  text-align: center;
 }
