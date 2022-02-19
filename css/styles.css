@@ -75,7 +75,7 @@ li {
 }
 
 .content {
-  align-items: center;
+  text-align: left;
 }
 
 #hamburger-menu {
@@ -166,10 +166,6 @@ hr {
 
 .image-container img {
   width: 100%;
-}
-
-main {
-  text-align: center;
 }
 
 footer {
