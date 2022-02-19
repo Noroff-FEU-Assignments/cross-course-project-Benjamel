@@ -6,6 +6,9 @@
 
 .game-list {
   width: 100%;
+  grid-column: 2;
+  grid-row: 1;
+  grid-column-start: auto;
 }
 
 .cta {
@@ -15,6 +18,7 @@
 }
 
 p,
+h1,
 h2 {
   text-align: left;
   margin: 0;
@@ -23,4 +27,16 @@ h2 {
 
 footer p {
   text-align: center;
+}
+
+.games-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media only screen and (min-width: 600px) {
+  .all-games {
+    max-width: 300px;
+  }
 }
