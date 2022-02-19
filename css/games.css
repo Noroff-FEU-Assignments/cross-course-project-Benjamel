@@ -1,0 +1,13 @@
+.all-games {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+}
+
+.game-list {
+  width: 100%;
+}
+
+.cta {
+  border-radius: 5px;
+}
