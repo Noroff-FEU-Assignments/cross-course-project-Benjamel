@@ -1,26 +1,35 @@
 @import url(/css/imports/variables.css);
 
-.viewgame {
-  display: grid;
-}
-
 .section-viewgame {
   max-width: 90%;
   margin: 0 auto;
+  display: grid;
+}
+
+.viewgame {
+  display: grid;
+  grid-column: 1;
+}
+
+.game-images {
+  width: 100%;
+  display: grid;
+  grid-column: 2;
+}
+
+.welcome_content {
+  grid-area: auto;
 }
 
 .racing {
   max-width: 100%;
+  grid-column: 2;
+  grid-column-start: auto;
 }
 
-.ingame-images {
+. .ingame-images {
   display: grid;
-}
-
-.game-images {
-  max-width: 100%;
-  padding-bottom: 10px;
-  grid-column: 1;
+  margin: 0 auto;
 }
 
 h1,

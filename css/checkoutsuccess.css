@@ -3,6 +3,7 @@
 .section-checkoutsuccess {
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .h1-checkoutsuccess {
@@ -44,5 +45,19 @@
   background-repeat: no-repeat;
   width: 48px;
   height: 48px;
-  text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+  .section-checkoutsuccess {
+    max-width: 1000px;
+  }
+  h1 {
+    margin-bottom: 100px;
+  }
+  h2 {
+    margin-top: 120px;
+  }
+  .social-icons {
+    margin-top: 50px;
+  }
 }

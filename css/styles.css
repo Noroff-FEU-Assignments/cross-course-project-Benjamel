@@ -103,15 +103,9 @@ h1 {
 
 p {
   text-align: center;
-  margin: 20px;
+  margin-top: 40px;
   font-size: 16px;
   color: var(--dark-blue);
-}
-
-.readmore {
-  margin: 0px;
-  text-decoration: underline;
-  padding-bottom: 10px;
 }
 
 .cta {
@@ -138,20 +132,6 @@ a {
   text-decoration-thickness: 2px;
 }
 
-hr {
-  border-bottom: 1px solid var(--dark-blue);
-  box-shadow: 1px var(--light-blue);
-  width: 90%;
-  margin-top: -5px;
-}
-
-.hr-circle {
-  display: flex;
-  max-width: 1000px;
-  margin: 0px auto;
-  margin-bottom: 25px;
-}
-
 .welcome_content {
   text-align: center;
   margin-bottom: 25px;
@@ -175,4 +155,16 @@ footer {
 
 h5 {
   margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .stuff {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .stuff {
+    max-width: 1000px;
+  }
 }

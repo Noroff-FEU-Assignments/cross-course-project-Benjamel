@@ -15,7 +15,7 @@
 
 .h1-contact {
   margin: 40px 0;
-  text-align: left;
+  text-align: center;
 }
 
 .contact-form {
@@ -65,4 +65,13 @@
   padding: 30px;
   border-radius: 10px;
   border: 1px solid var(--dark-blue);
+}
+
+@media only screen and (min-width: 1000px) {
+  main,
+  .contact,
+  .map {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
 }

@@ -8,12 +8,12 @@
 }
 
 .hr-profile {
-  width: 40%;
+  width: 125px;
 }
 
 .paragraph-profile {
   text-decoration: underline;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .h2-profile {
@@ -26,4 +26,11 @@
 
 section {
   text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .profile-image {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
